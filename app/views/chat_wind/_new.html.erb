@@ -1,0 +1,10 @@
+<%= from_for Chats.new, remote: true do |f| %>
+	<%= f.text_area :content, cols:40, rows:6 %><br>
+	<%= f.submit 'ENTER' %>
+<% end %>
+
+
+<% Chats.all.each do |c| %>
+	<%= c.content %>
+<% end %>
+
