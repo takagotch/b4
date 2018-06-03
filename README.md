@@ -1,3 +1,6 @@
+### b4
+
+
 chats_sample
 /*
  create mode 100644 app/assets/javascripts/channels/chat.coffee
